@@ -1,0 +1,29 @@
+.container-fluid .bg{
+	height: 100vh;
+	background-image: url('home.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.bg a, .bg h1{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+
+
+.bg_text{
+	width: 400px;
+	position: relative;
+	left: 0;
+	bottom: 0px;
+	
+}
+
+.zoom{
+	transform: 0.3s;
+}
+.zoom:hover{
+	transform: scale(1.06);
+}
